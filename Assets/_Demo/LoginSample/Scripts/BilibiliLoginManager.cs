@@ -39,7 +39,7 @@ public class BilibiliLoginManager : MonoBehaviour
     public UnityEvent LinkFailedEvent;//连接失败时触发
     public UnityEvent ShowEvent;//显示UI时触发
     public UnityEvent HideEvent;//隐藏UI时触发
-
+    
     public virtual void Initial()
     {
         //config read and init
